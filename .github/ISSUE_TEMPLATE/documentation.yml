@@ -1,0 +1,28 @@
+name: Documentation issue
+description: Report a gap, contradiction or broken link.
+title: "[Docs]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Use synthetic examples. Report vulnerabilities through SECURITY.md."
+  - type: input
+    id: location
+    attributes:
+      label: Document and section
+      placeholder: docs/FEATURES.md — P05
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs correcting?
+      description: Explain the current text and why it is unclear or inconsistent.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Include a source or synthetic example where useful.
+    validations:
+      required: true

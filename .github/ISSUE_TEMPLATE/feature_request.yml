@@ -1,0 +1,28 @@
+name: Feature request
+description: Propose an improvement to the OpenUPI specification.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: "OpenUPI is in the documentation stage. A proposal is not an implementation commitment."
+  - type: textarea
+    id: need
+    attributes:
+      label: User need
+      description: Who needs this and what problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Link existing feature IDs and describe the expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance and failure cases
+      description: How should we verify this? Include edge cases and alternatives.
+    validations:
+      required: true

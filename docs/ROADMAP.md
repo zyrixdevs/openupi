@@ -31,6 +31,6 @@
 
 ## Open design decisions
 
-Finalize OTP adapter, API/observer routes, evidence grace timing, risk-review transitions, secret/key rotation, refund responsibilities and license choice. Decide whether any future code will be independently implemented or reused under verified upstream permission.
+Finalize OTP adapter, API/observer routes, evidence grace timing, risk-review transitions, secret/key rotation, refund responsibilities and any future license changes. The current repository license is recorded in [LICENSE](../LICENSE). Decide whether any future code will be independently implemented or reused under verified upstream permission.
 
 Do not assign completion percentages or passing test counts until implementation evidence exists.

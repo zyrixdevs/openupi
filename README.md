@@ -1,4 +1,12 @@
+![OpenUPI — payment infrastructure, on your terms](assets/readme/hero.svg)
+
 # OpenUPI
+
+[![Stage: specification](assets/readme/status.svg)](docs/ROADMAP.md)
+[![License: ZYRIX Dev custom](assets/readme/license.svg)](LICENSE)
+[![Scope: docs and design](assets/readme/scope.svg)](docs/README.md)
+
+**[Explore the docs](docs/README.md) · [Feature catalogue](docs/FEATURES.md) · [Roadmap](docs/ROADMAP.md) · [Contribute](CONTRIBUTING.md)**
 
 **Self-hosted UPI checkout and merchant payment operations, planned by ZYRIX Dev.**
 
@@ -13,6 +21,8 @@ OpenUPI is intended to let merchants host their own checkout, receive UPI transf
 The design covers the documented feature scope of the [YouPI-PG reference project](https://github.com/youpi-pg/YouPI-PG), expressed as an OpenUPI specification. This repository does not claim to be that project's official successor, an implemented fork or an approved payment provider.
 
 ## Planned features
+
+![OpenUPI planned checkout, observation and operations capabilities](assets/readme/overview.svg)
 
 | Area | Scope |
 | --- | --- |
@@ -63,12 +73,30 @@ An alert or signed webhook alone is not conclusive proof of bank settlement.
 
 ## Current availability
 
-Only Markdown documents are included. Installation commands, downloadable binaries, package publication and supported bank lists will be added after implementation and validation. Proposed identifiers in these documents are design targets, not working interfaces.
+The repository contains Markdown documentation, community templates and original SVG artwork. Installation commands, downloadable binaries, package publication and supported bank lists will be added after implementation and validation. Proposed identifiers in these documents are design targets, not working interfaces.
 
 ## Research boundaries
 
 OpenUPI is not represented as NPCI-approved, RBI-approved, bank-approved, audited or production-ready. Bank alerts can be delayed, missing, duplicated or misleading. A timed-out checkout does not establish that no funds moved. Receiving-account eligibility and any required approvals must be confirmed before real customer use.
 
-## Attribution and licensing
+## Contributing and community
 
-The feature research references YouPI-PG, originally created by Gaurav and described by its README as maintained by Zenuxs. OpenUPI branding does not transfer ownership of upstream work or remove applicable attribution requirements. These documents are newly written specifications; no upstream source code, media or binaries are included. No software license is selected or implied by the OpenUPI name. See [reference notes](docs/REFERENCE.md).
+Help us improve the specification, clarify edge cases and review the design. Start with [CONTRIBUTING.md](CONTRIBUTING.md), then use an [issue template](https://github.com/zyrixdevs/openupi/issues/new/choose) or open a focused pull request.
+
+| Guide | Purpose |
+| --- | --- |
+| [Contributing](CONTRIBUTING.md) | Contribution workflow, writing rules and contribution rights |
+| [Code of conduct](CODE_OF_CONDUCT.md) | Community standards and reporting |
+| [Security policy](SECURITY.md) | Safe reporting of vulnerabilities and exposed secrets |
+| [Governance](GOVERNANCE.md) | Maintainer roles and project decisions |
+| [Support](SUPPORT.md) | Help routes and current support scope |
+| [Permissions](PERMISSIONS.md) | Reuse rights and written permission requests |
+| [Changelog](CHANGELOG.md) | Repository milestones |
+
+## License and attribution
+
+Original repository material is covered by the **[ZYRIX Dev Review and Contribution License](LICENSE)**. It allows personal study, review and contributions. Commercial reuse and redistribution beyond its limited grant require written permission. This is a custom restricted license; public visibility and the OpenUPI name do not make it an OSI-approved open-source project. See [PERMISSIONS.md](PERMISSIONS.md) for a plain-language summary.
+
+Feature research references YouPI-PG, originally created by Gaurav and described by its README as maintained by Zenuxs. No upstream source code, media or binaries are included. OpenUPI's license applies only to material its copyright holders can license, and does not relicense upstream work. See [reference notes](docs/REFERENCE.md).
+
+![OpenUPI by ZYRIX Dev](assets/readme/footer.svg)

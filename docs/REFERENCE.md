@@ -43,6 +43,6 @@ Links in this table refer to sibling files under docs, except the project README
 
 These are newly written product and engineering specifications describing a planned OpenUPI implementation. This commit contains no upstream source, assets, APKs or executable examples. The OpenUPI branding does not change rights to the reference material.
 
-The reviewed upstream package metadata labels its license Commercial, while the README points to a LICENSE file. This is not a verified permission grant. Before importing or modifying upstream implementation, review the applicable license at the chosen revision and obtain any required permission. OpenUPI's own license is undecided; “Open” in its name does not itself grant a software license.
+The reviewed upstream package metadata labels its license Commercial, while the README points to a LICENSE file. This is not a verified permission grant. Before importing or modifying upstream implementation, review the applicable license at the chosen revision and obtain any required permission. Original OpenUPI repository material is now governed by the custom [ZYRIX Dev Review and Contribution License](../LICENSE); see [permissions](../PERMISSIONS.md). That license does not cover upstream material or grant rights the project does not hold. “Open” in its name does not make the license OSI-approved.
 
 This is feature/document research, not a full source-code, security, bank-integration or legal audit.

@@ -1,0 +1,36 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+token.json
+.secrets/
+
+# Runtime state — never commit real payment or customer records
+data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+logs/
+oauth-state/
+browser-profiles/
+
+# Future build output
+node_modules/
+dist/
+build/
+*.apk
+*.aab
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

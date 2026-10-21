@@ -1,0 +1,64 @@
+ZYRIX Dev Review and Contribution License
+Version 1.0 — 22 October 2026
+
+Copyright (c) 2026 zyrixdevs and the respective contributors.
+All rights reserved except as expressly granted below.
+
+1. Scope
+“Material” means original documentation, artwork and other copyrightable
+content included in this repository under this license. Third-party material,
+if any, remains governed by its own notices and terms. This license grants
+only rights that the relevant copyright holder is entitled to grant.
+
+2. Limited permissions
+You may read and privately copy the Material for personal study, evaluation
+and review. You may modify a copy solely to prepare and submit a contribution
+back to this repository. Retain copyright, attribution and license notices.
+
+Nothing in this license limits rights granted under GitHub's applicable terms
+for public repositories, including viewing and forking through the service,
+or rights that cannot be restricted under applicable law.
+
+3. Permission required for other reuse
+Except for Section 2, rights granted by applicable law, platform terms or a
+separate written agreement, you must obtain written permission from an
+authorized zyrixdevs maintainer before reproducing, distributing, publishing,
+sublicensing, selling or commercially reusing the Material or adaptations.
+Permission is limited to the scope stated in that written agreement.
+
+These restrictions concern protected expression, not ownership of facts,
+general ideas or independently developed implementations.
+
+4. Contributions
+A person who deliberately submits a contribution for inclusion retains
+ownership and grants recipients the permissions in this license for that
+contribution. The contributor also grants zyrixdevs a non-exclusive,
+worldwide, perpetual, irrevocable, royalty-free copyright license to
+reproduce, modify, distribute, sublicense and commercially license that
+contribution as part of OpenUPI. No copyright assignment is required.
+
+The contributor must have authority to grant these rights and identify any
+third-party material and its applicable terms. Unrelated work and rights the
+contributor does not control are excluded. No patent or trademark license is
+granted by this section.
+
+5. Names and attribution
+No permission is granted to use OpenUPI or ZYRIX Dev names or logos to imply
+endorsement or official affiliation. Descriptive references that identify
+the project accurately are permitted. Third-party attribution must be retained.
+
+6. No warranty
+THE MATERIAL IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. NO SECURITY, AVAILABILITY, REGULATORY APPROVAL OR PAYMENT
+SETTLEMENT GUARANTEE IS PROVIDED.
+
+7. Limitation of liability
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, COPYRIGHT HOLDERS AND
+CONTRIBUTORS ARE NOT LIABLE FOR CLAIMS, DAMAGES OR OTHER LIABILITY ARISING
+FROM THE MATERIAL OR ITS USE, WHETHER IN CONTRACT, TORT OR OTHERWISE.
+
+8. Other rights
+All rights not expressly granted are reserved. Separate written permissions
+may supplement this license. This is a custom, restricted license, not an
+OSI-approved open-source license. The name OpenUPI does not alter these terms.

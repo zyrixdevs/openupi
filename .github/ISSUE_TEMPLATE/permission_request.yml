@@ -1,0 +1,28 @@
+name: Permission request
+description: Request written permission to reuse OpenUPI material.
+title: "[Permission]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Read LICENSE and PERMISSIONS.md. This form is public; ask for a private route before sharing confidential details."
+  - type: input
+    id: material
+    attributes:
+      label: Material and revision
+      description: Identify the files, artwork or commit you want to use.
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Intended use
+      description: Describe modifications, audience, distribution and commercial context.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Requested permission scope
+      description: Include duration, attribution and any sublicensing request.
+    validations:
+      required: true

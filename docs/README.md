@@ -14,4 +14,8 @@ Start with [Features](FEATURES.md), then [Architecture](ARCHITECTURE.md). Mercha
 - A feature is complete only after implementation, evidence-based validation and a documented status update.
 - Future changes must update related contracts and acceptance criteria together.
 
+## Community and permissions
+
+[Contributing](../CONTRIBUTING.md) · [Code of conduct](../CODE_OF_CONDUCT.md) · [Security reporting](../SECURITY.md) · [Governance](../GOVERNANCE.md) · [Support](../SUPPORT.md) · [License](../LICENSE) · [Permissions](../PERMISSIONS.md) · [Changelog](../CHANGELOG.md)
+
 [Back to the project README](../README.md)
